@@ -12,9 +12,8 @@ public class Main {
     public static long repeatedString(String string, long number) {
         long size = string.length(), repeated = number/size;
         long left = number - (size * repeated);
-        int extra = 0;
-
-        int count = 0;
+        int extra = 0, count = 0;
+        
         for(char c: string.toCharArray()){
             if(c == 'a'){
                 count++;
