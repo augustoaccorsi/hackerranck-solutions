@@ -19,10 +19,10 @@ public class Main {
 
         transactions.add(transaction1); transactions.add(transaction2); transactions.add(transaction3);
 
-        System.out.println(getUserThreshHolds(transactions, threshold));
+        System.out.println(getUserThresholds(transactions, threshold));
     }
 
-    public static List<Integer> getUserThreshHolds(List<List<Integer>> transactions, Integer threshold){
+    public static List<Integer> getUserThresholds(List<List<Integer>> transactions, Integer threshold){
         List<Integer> aux = new ArrayList<>();
         List<Integer> users = new ArrayList<>();
 
