@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527c9cbb-1ee9-4d40-a4b8-51e2344d518d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../arrays/teste/teste.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../arrays/array-manipulation/out/production/array-manipulation/com/augustoaccorsi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../arrays/array-manipulation/out/production/array-manipulation/com/augustoaccorsi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../arrays/array-manipulation/src/com/augustoaccorsi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../arrays/array-manipulation/src/com/augustoaccorsi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
