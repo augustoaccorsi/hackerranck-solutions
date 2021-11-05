@@ -3,6 +3,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
     // 1) Return the best rated hotel names, a best rated hotel has a rating higher than 7.0 and more than 1000 reviews;
@@ -20,6 +21,7 @@ public class Main {
                 "\"amenities\": \"Cleaning services|Laundry|Garden|Breakfest|Wifi|Bike tours\", \"rating\": 7.8, \"reviews\": \"3876\"} ] }]";
 
         System.out.println(getBestHotels(hotels));
+        System.out.println(getBestHotels2());
     }
 
     public static List<String> getBestHotels(String hotels){
@@ -37,5 +39,24 @@ public class Main {
         }
 
         return bestHotels;
+    }
+
+    public static List<String> getBestHotels2(){
+        List<String> hotels = new ArrayList<>();
+        Scanner in = new Scanner(System.in);
+        String input = in.nextLine();
+
+        JSONArray array = new JSONArray(input);
+        JSONArray hotelsArray = (JSONArray) array.getJSONObject(0).get("hotels");
+
+        for(int i=0; i < hotelsArray.length(); i++) {
+            double rating = (double) hotelsArray.getJSONObject(i).get("rating");
+            int reviews = Integer.parseInt((String) hotelsArray.getJSONObject(i).get("reviews"));
+            if((rating>7.0) && (reviews>1000)){
+                hotels.add((String)hotelsArray.getJSONObject(i).get("name"));
+            }
+        }
+
+        return hotels;
     }
 }
